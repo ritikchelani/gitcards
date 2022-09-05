@@ -11,7 +11,7 @@ function App() {
     const [loading, setLoading] = useState(false)
 
     useEffect(()=>{
-        fetchUserData('MtechZilla')
+        fetchUserData('ritikchelani')
     },[])
     function handleSearch(username) {
         setLoading(true)
